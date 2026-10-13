@@ -33,9 +33,7 @@ themeToggle.addEventListener("click", function () {
 });
 
 
-/* =================================
-   REMEMBER THEME
-================================= */
+/*   REMEMBER THEME  */
 
 const savedTheme = localStorage.getItem("theme");
 
@@ -49,9 +47,7 @@ if (savedTheme === "dark") {
 }
 
 
-/* =================================
-   CONTACT FORM
-================================= */
+/*   CONTACT FORM  */
 
 const contactForm = document.getElementById("contactForm");
 
@@ -82,12 +78,9 @@ contactForm.addEventListener("submit", function (event) {
     }
 
 
-    /*
-        This opens the user's email application.
-
-        Replace the email address below
-        with your preferred email address.
-    */
+    /*   This opens the user's email application.
+         Replace the email address below
+         with your preferred email address.   */
 
     const myEmail = "shivamyadav24602@gmail.com";
 
@@ -112,18 +105,14 @@ contactForm.addEventListener("submit", function (event) {
 });
 
 
-/* =================================
-   CURRENT YEAR
-================================= */
+/*   CURRENT YEAR     */
 
 const year = document.getElementById("year");
 
 year.textContent = new Date().getFullYear();
 
 
-/* =================================
-   ACTIVE NAVIGATION
-================================= */
+/*  ACTIVE NAVIGATION  */
 
 const navLinks =
     document.querySelectorAll("nav a");
@@ -146,9 +135,7 @@ navLinks.forEach(function (link) {
 });
 
 
-/* =================================
-   SCROLL REVEAL
-================================= */
+/*  SCROLL REVEAL */
 
 const sections =
     document.querySelectorAll("section");
